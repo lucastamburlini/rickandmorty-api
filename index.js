@@ -1,5 +1,5 @@
-const app = require("./app")
-const { conn } = require("./DB_connection")
+const app = require("./src/app")
+const { conn } = require("./src/DB_connection")
 const PORT = 3001;
 
 app.listen(PORT, () => {
