@@ -3,6 +3,7 @@ const { Sequelize } = require('sequelize');
 const FavoriteModel = require('./models/Favorite');
 const UserModel = require('./models/User');
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY } = process.env;
+const pg = require('pg')
 
 // URL ----> postgres://DB_USER:DB_PASSWORD@DB_HOST/rickandmorty
 /* const sequelize = new Sequelize(
